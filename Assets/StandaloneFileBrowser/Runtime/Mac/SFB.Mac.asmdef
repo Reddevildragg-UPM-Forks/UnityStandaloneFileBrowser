@@ -1,0 +1,17 @@
+{
+    "name": "SFB.Mac",
+    "references": [
+        "GUID:c379f9a233f0afe4bb9d0743dd84208a"
+    ],
+    "includePlatforms": [
+        "macOSStandalone"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

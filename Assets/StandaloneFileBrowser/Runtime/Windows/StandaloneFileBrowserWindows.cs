@@ -1,5 +1,3 @@
-#if UNITY_STANDALONE_WIN
-
 using System;
 using System.IO;
 using System.Windows.Forms;
@@ -133,5 +131,3 @@ namespace SFB {
         }
     }
 }
-
-#endif
