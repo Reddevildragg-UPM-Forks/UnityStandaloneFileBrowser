@@ -1,5 +1,6 @@
 {
     "name": "SFB.Windows",
+    "rootNamespace": "",
     "references": [
         "GUID:c379f9a233f0afe4bb9d0743dd84208a"
     ],

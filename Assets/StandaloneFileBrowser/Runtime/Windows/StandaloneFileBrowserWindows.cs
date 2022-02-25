@@ -77,7 +77,7 @@ namespace SFB {
             if (extensions != null) {
                 fd.Filter = GetFilterFromFileExtensionList(extensions);
                 fd.FilterIndex = 1;
-                fd.DefaultExt = extensions[0].Extensions[0];
+                fd.DefaultExt = extensions[0].extensions[0];
                 fd.AddExtension = true;
             }
             else {
@@ -100,16 +100,16 @@ namespace SFB {
         private static string GetFilterFromFileExtensionList(ExtensionFilter[] extensions) {
             var filterString = "";
             foreach (var filter in extensions) {
-                filterString += filter.Name + "(";
+                filterString += filter.name + "(";
 
-                foreach (var ext in filter.Extensions) {
+                foreach (var ext in filter.extensions) {
                     filterString += "*." + ext + ",";
                 }
 
                 filterString = filterString.Remove(filterString.Length - 1);
                 filterString += ") |";
 
-                foreach (var ext in filter.Extensions) {
+                foreach (var ext in filter.extensions) {
                     filterString += "*." + ext + "; ";
                 }
 

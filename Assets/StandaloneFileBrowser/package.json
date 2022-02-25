@@ -1,6 +1,6 @@
 {
 	"name": "com.gkngkc.sfb",
-	"version": "1.3.0",
+	"version": "1.3.1",
 	"displayName": "Standalone File Browser",
 	"description": "A native file browser for unity standalone platforms.",
 	"unity": "2018.4",
